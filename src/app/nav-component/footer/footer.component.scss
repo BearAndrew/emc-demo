@@ -1,0 +1,19 @@
+.footer-bg {
+  background-color: rgb(32, 32, 32);
+}
+
+.list-unstyled {
+  li {
+    margin-bottom: 1rem;
+  }
+}
+
+.site-footer {
+  font-size: 30px;
+  margin: 0px 13px;
+  color: #FFFFFF;
+
+  :hover {
+    color: #1e73be;
+  }
+}

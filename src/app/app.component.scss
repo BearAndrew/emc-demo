@@ -1,0 +1,84 @@
+$sidebar-width: 260px;
+
+// sidebar will not overlap the page
+.not-overlap {
+  // greater than sm screen width
+  @media screen and (min-width: 768px) {
+    padding-left: $sidebar-width;
+  }
+}
+
+.page-wrapper {
+  // height: 100vh;
+  padding: 0;
+  // border: blue 5px solid;
+
+  .page-content {
+    // display: inline-block;
+    width: 100%;
+    transition: padding-left .3s ease;
+    // border: red 5px solid;
+
+    .router-content {
+      min-height: calc(100vh - 55px - 265px);
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 998;
+      background: #000;
+      opacity: .5;
+      display: none;
+
+      &.show {
+
+        @media screen and (max-width: 768px) {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .sidebar {
+    left: 0px;
+  }
+
+  &.toggled {
+
+    .page-content {
+      padding-left: 0;
+    }
+  }
+
+  .attribution{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    margin: 5px;
+    letter-spacing: 1px;
+  }
+}
+
+// float button
+.btn-float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:30px;
+	right:30px;
+	color:#FFF;
+	border-radius:50%;
+	text-align:center;
+  box-shadow: 0px 0px 5px rgb(128, 128, 128);
+  background-color:#202020;
+  z-index: 999;
+
+  i {
+    font-size: 1.5rem;
+  }
+}

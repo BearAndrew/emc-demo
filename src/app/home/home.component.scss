@@ -1,0 +1,110 @@
+$md : 768px;
+$full-height: 100vh;
+
+.wrap {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+
+  .jumbotron-right {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 50vw;
+    height: $full-height;
+
+    @media (max-width: $md) {
+      position: relative;
+      left: 0;
+      width: 100%;
+    }
+
+    .bg-img {
+      position: absolute;
+      opacity: 0.5;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100vh;
+      object-position: center;
+      object-fit: cover;
+    }
+
+    h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 2rem;
+      -webkit-user-select:none;
+      -moz-user-select:none;
+      -o-user-select:none;
+      user-select:none;
+    }
+  }
+}
+
+.carousel {
+  background: black;
+  height: $full-height;
+  width: 100vw;
+  overflow: hidden;
+  @media (max-width: $md) {
+    width: 100%;
+  }
+
+  img {
+    display: block;
+    height: $full-height;
+    width: auto;
+    opacity: .5;
+    object-fit: cover;
+  }
+}
+
+
+//#region text animation
+.c2 {
+  position: absolute;
+  font-weight: 600;
+  font-size: 5rem;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: $md) {
+    font-size: 3.5rem;
+  }
+}
+
+.c2 .text-wrapper {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translate(0%, -50%);
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.c2 .letter {
+  position: relative;
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+.c2 .letter2 {
+  position: relative;
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+//#endregion
+

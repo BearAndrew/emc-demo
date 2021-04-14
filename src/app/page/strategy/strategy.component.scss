@@ -1,0 +1,19 @@
+$md : 768px;
+h3.text-right{
+  @media (max-width: $md) {
+    text-align: left !important;
+  }
+}
+
+.feature-media {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon-background-default {
+  color: #1e73be;
+}
+
+.feature-icon {
+  color: white;
+}

@@ -1,0 +1,19 @@
+<nav class="nav">
+  <div class="container">
+      <div class="logo">
+          <a href="/home">EMC Logo</a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+          <ul class="navlinks">
+              <li><a [routerLink]="['/strategy']" (click)="toggleNav()">核心策略</a></li>
+              <li><a [routerLink]="['/services']" (click)="toggleNav()">服務項目</a></li>
+              <li><a [routerLink]="['/contact']" (click)="toggleNav()">聯絡我們</a></li>
+          </ul>
+      </div>
+      <span class="navTrigger">
+          <i></i>
+          <i></i>
+          <i></i>
+      </span>
+  </div>
+</nav>
