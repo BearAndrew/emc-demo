@@ -64,6 +64,7 @@ img {
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
+  -webkit-background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

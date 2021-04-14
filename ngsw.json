@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1618391834323,
+  "timestamp": 1618392750882,
   "index": "/emc-demo/index.html",
   "assetGroups": [
     {
@@ -18,7 +18,7 @@
         "/emc-demo/runtime-es2015.0811dcefd377500b5b1a.js",
         "/emc-demo/runtime-es5.0811dcefd377500b5b1a.js",
         "/emc-demo/scripts.827a894b527246988b61.js",
-        "/emc-demo/styles.449f92520caec07e5ed8.css"
+        "/emc-demo/styles.2b0d548dc4ece9182a00.css"
       ],
       "patterns": []
     },
@@ -183,7 +183,7 @@
     "/emc-demo/assets/scss/monokai-color.scss": "19b825777e198982d7dc6fd1e31667656c2116bf",
     "/emc-demo/assets/scss/styles.css": "9d748840551de1ac9376baaf4a38dd94c15ee76c",
     "/emc-demo/assets/scss/styles.css.map": "7f8a5f99bd39ae75a47bd5b5f3583dac83833694",
-    "/emc-demo/assets/scss/styles.scss": "55a77003922336fea2675937a036b57083aedb38",
+    "/emc-demo/assets/scss/styles.scss": "03b700d42c4a87542b3f936b5af5d092841902bf",
     "/emc-demo/fa-brands-400.067595ad77ecc0db9c81.woff2": "3a175545f961094f3614f208f2166187b642355f",
     "/emc-demo/fa-brands-400.57dcda6f368ea90179f7.eot": "e6feaa7a93ad42acb348529c9a684a0cf5cbf2ee",
     "/emc-demo/fa-brands-400.9d67fa1429375bd2a899.svg": "8730dd14f32b5c64c935b7d0d583589703fc6dd7",
@@ -200,7 +200,7 @@
     "/emc-demo/fa-solid-900.89e02bae13c9131c7468.eot": "e13aaeda706af85d9382d7c39f5a3f79d612cd31",
     "/emc-demo/fa-solid-900.cdfec5cf5e9840889790.woff": "120dab7a8a93da819ab3025da6a9f3d3ccd65cce",
     "/emc-demo/favicon.ico": "2af6a401a77f1ab137e08ed07ca0c7f39a645b95",
-    "/emc-demo/index.html": "e65d5cade15a20dea1e5f6256a97885e103395fa",
+    "/emc-demo/index.html": "3b3769ded7b0dbb8c370a817a0514f027986631a",
     "/emc-demo/main-es2015.b7d533b6b0f9f132e140.js": "e5c33f9be048538df3e92864cc79ebafa8831220",
     "/emc-demo/main-es5.b7d533b6b0f9f132e140.js": "cbec2047517032de41b388d187a03ebb88949104",
     "/emc-demo/manifest.webmanifest": "76d472ec6d38061c19d84d2849f71c1260fc115b",
@@ -213,7 +213,7 @@
     "/emc-demo/slick.ced611daf7709cc778da.eot": "2dff0768f4c0a53228761eab917e2c65556042d4",
     "/emc-demo/slick.d41f55a78e6f49a55128.ttf": "3331eebdd4ba348ef25abe00c39ffbe867d46575",
     "/emc-demo/slick.f97e3bbf73254b011209.svg": "17f63c6f6131389462ba3d814b7ddf83344705f9",
-    "/emc-demo/styles.449f92520caec07e5ed8.css": "ebce5f8a9a7de96a84be72edd97d1f3bb9d4b7c3"
+    "/emc-demo/styles.2b0d548dc4ece9182a00.css": "9d932165eb052511fe04010eba0924643e89b26f"
   },
   "navigationUrls": [
     {
