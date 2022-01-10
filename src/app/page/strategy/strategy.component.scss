@@ -1,7 +1,7 @@
 $md : 768px;
-h3.text-right{
+h3.title{
   @media (max-width: $md) {
-    text-align: left !important;
+    text-align: center !important;
   }
 }
 

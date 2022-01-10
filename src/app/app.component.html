@@ -4,10 +4,9 @@
   <main class="page-content">
     <div class="router-content"><router-outlet></router-outlet></div>
     <app-footer></app-footer>
-    <!-- <div class="overlay" (click)="toggleSidebar()" [ngClass]="{'show' : !getSideBarState()}"></div> -->
   </main>
 </div>
 
-<button class="btn btn-float" (click)="onClick()">
+<button class="btn btn-float" [ngClass]="this.offset < 100 ? 'opacity-0' : ''" (click)="onClick()">
   <i class="fa fa-angle-double-up"></i>
 </button>

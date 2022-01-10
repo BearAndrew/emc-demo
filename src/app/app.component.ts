@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,17 +7,30 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  constructor() { }
+  offset: number = 0;
+
+  constructor() {
+    // document.addEventListener('scroll', () => {
+    //   console.log('scroll' + document.getElementById('router-content').scrollTop)
+    // })
+  }
 
   onScroll(event: any) {
     console.log(event.target.scrollTop);
   }
 
   onClick(): void {
-    document.querySelector('.page-wrapper').scrollIntoView({
-      behavior: 'smooth'
-    });
-    console.log(document.documentElement.scrollTop)
+    document.querySelector('.page-wrapper').scrollIntoView(
+      { behavior: 'smooth' } || true
+    );
   }
+
+
+  @HostListener("window:scroll", [])
+  onWindowScroll() {
+    this.offset = document.documentElement.scrollTop
+    // console.log(this.offset);
+  }
+
 
 }

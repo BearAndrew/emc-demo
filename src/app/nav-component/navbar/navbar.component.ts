@@ -31,11 +31,13 @@ export class NavbarComponent implements OnInit {
   }
 
   toggleNav() {
-    $(this).toggleClass('active');
-    console.log("Clicked menu");
-    $('.nav').addClass('affix');
-    $("#mainListDiv").toggleClass("show_list");
-    $("#mainListDiv").fadeIn();
+    if (document.querySelector('.show_list')) {
+      $('.navTrigger').toggleClass('active');
+      console.log("Clicked menu");
+      $('.nav').addClass('affix');
+      $("#mainListDiv").toggleClass("show_list");
+      $("#mainListDiv").fadeIn();
+    }
   }
 
 }
