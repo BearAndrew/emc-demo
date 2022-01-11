@@ -80,6 +80,7 @@
     padding-bottom: 20px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
+    $layout-transition-speed: .02s;
 }
 
 .container {
@@ -104,6 +105,8 @@
       right: -250px;
       overflow: hidden;
       transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease;
+      $layout-transition-speed: .02s;
     }
     .nav div.show_list {
       right: 0px;
